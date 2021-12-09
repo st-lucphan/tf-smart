@@ -1,0 +1,39 @@
+.home-section {
+  background-color: rgb(245, 247, 252);
+  @include pxRem(padding, 30 0 50 0);
+  .home-section-title {
+    @include pxRem(margin-bottom, 20);
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .home-section-content {
+    @include pxRem(margin-bottom, 35);
+    font-size: 17px;
+    color: #7c8595;
+  }
+  .newsletter-form {
+    border-radius: 5px;
+    .email {
+      @include pxRem(padding, 0 20 0 45);
+      @include pxRem(height, 59);
+      @include pxRem(width, 350);
+      border: none;
+      font-size: 17px;
+      background: url(../../images/email.png) no-repeat 15px 20px;
+      background-color: white
+    }
+    .btn-submit {
+      @include pxRem(height, 59);
+      border: none;
+      border-radius: 0 5px 5px 0;
+      font-weight: 700;
+      color: map-get($color, white);
+      background: #e52f37;
+    }
+  }
+  .newsletter-form-terms {
+    @include pxRem(margin, 15 0 5 0);
+    font-size: map-get($font-size, sm);
+    color: #878787;
+  }
+}

@@ -37,3 +37,9 @@
 .txt-primary {
   color: map-get($color, primary);
 }
+.txt-green {
+  color: map-get($color, green);
+}
+.align-items-center {
+  align-items: center;
+}

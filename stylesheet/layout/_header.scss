@@ -2,7 +2,7 @@
   .navbar {
     display: flex;
     align-items: center;
-    @include pxRem(padding, 20 0);
+    @include pxRem(padding, 20 12);
     .navbar-branch {
       @include pxRem(padding, 5 0);
       width: 11%;
