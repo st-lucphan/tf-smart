@@ -40,6 +40,9 @@
 .txt-green {
   color: map-get($color, green);
 }
+.txt-danger {
+  color: map-get($color, danger);
+}
 .align-items-center {
   align-items: center;
 }

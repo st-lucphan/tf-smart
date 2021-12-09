@@ -9,7 +9,7 @@
   .home-section-content {
     @include pxRem(margin-bottom, 35);
     font-size: 17px;
-    color: #7c8595;
+    color: map-get($color, secondary);
   }
   .newsletter-form {
     border-radius: 5px;
@@ -28,7 +28,7 @@
       border-radius: 0 5px 5px 0;
       font-weight: 700;
       color: map-get($color, white);
-      background: #e52f37;
+      background: map-get($color, danger);
     }
   }
   .newsletter-form-terms {
