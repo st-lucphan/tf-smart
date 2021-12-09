@@ -99,7 +99,7 @@ h6 {
   color: #161616; }
 
 h1 {
-  font-size: 25px; }
+  font-size: 24px; }
 
 h2 {
   font-size: 22px; }
@@ -134,6 +134,85 @@ button {
 
 .justify-content-end {
   justify-content: flex-end; }
+
+.btn {
+  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 17px; }
+  .btn:disabled {
+    cursor: not-allowed; }
+  .btn.btn-primary {
+    background-color: #0d6efd;
+    color: #ffffff; }
+    .btn.btn-primary:disabled {
+      background-color: #c3e6cb;
+      color: #ffffff; }
+    .btn.btn-primary:hover {
+      opacity: 0.7; }
+  .btn.btn-secondary {
+    background-color: #8d8d8d;
+    color: #ffffff; }
+    .btn.btn-secondary:disabled {
+      background-color: #6c757d;
+      color: #ffffff; }
+  .btn.btn-blue {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff; }
+    .btn.btn-blue:disabled {
+      background-color: #496e96;
+      color: #ffffff; }
+  .btn.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff; }
+    .btn.btn-danger:disabled {
+      background-color: #f0949c;
+      color: #ffffff; }
+  .btn.btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid #0d6efd;
+    color: #0d6efd; }
+    .btn.btn-outline-primary:hover {
+      background-color: #0d6efd;
+      color: #ffffff; }
+  .btn.btn-outline-secondary {
+    background-color: transparent;
+    border: 1px solid #8d8d8d;
+    color: #8d8d8d; }
+    .btn.btn-outline-secondary:hover {
+      background-color: #8d8d8d;
+      color: #ffffff; }
+  .btn.btn-outline-danger {
+    background-color: transparent;
+    border: 1px solid #dc3545;
+    color: #dc3545; }
+    .btn.btn-outline-danger:hover {
+      background-color: #dc3545;
+      color: #ffffff; }
+  .btn.btn-outline-blue {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff; }
+    .btn.btn-outline-blue:hover {
+      background-color: #007bff;
+      color: #ffffff; }
+  .btn.btn-icon {
+    width: 36px;
+    width: 2.25rem;
+    height: 36px;
+    height: 2.25rem;
+    padding: 10px;
+    padding: 0.625rem;
+    border-radius: 100%; }
+  .btn.btn-block {
+    width: 100%;
+    font-size: 16px; }
+  .btn.btn-close {
+    background-color: transparent;
+    border: 0; }
 
 .section-footer {
   height: 175px;
@@ -170,7 +249,7 @@ button {
       .section-footer .subcribe-form .input-subcribe input:focus {
         outline: none; }
     .section-footer .subcribe-form .input-subcribe .btn-subcribe {
-      background: #0f730c;
+      background: #0d6efd;
       color: #fff;
       font-size: 12px;
       font-weight: 600;
@@ -222,8 +301,8 @@ button {
 
 .container {
   max-width: 1172px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   margin: 0 auto; }
 
 .grid-box {
@@ -386,130 +465,41 @@ button {
 
   .col-md-12 {
     width: calc(100% *12/ 12); } }
-.header {
-  height: 60px;
-  height: 3.75rem;
-  margin-bottom: 20px;
-  margin-bottom: 1.25rem;
-  padding: 8px 0px;
-  padding: 0.5rem 0rem;
-  position: fixed;
-  width: 100%;
-  z-index: 99;
-  border-bottom: 1px solid #e8e8e8;
-  background: #ffffff; }
-  .header .header-content {
+.header .navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  padding: 1.25rem 0rem; }
+  .header .navbar .navbar-branch {
+    padding: 5px 0px;
+    padding: 0.3125rem 0rem;
+    width: 11%;
+    font-size: 24px;
+    font-weight: 800;
+    color: #071e55; }
+    .header .navbar .navbar-branch .logo {
+      color: #0d6efd; }
+  .header .navbar .navbar-main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .header .header-content .logo {
+    justify-content: space-between;
+    align-items: center;
+    width: 89%; }
+    .header .navbar .navbar-main .navbar-nav {
       display: flex;
-      align-items: center; }
-      .header .header-content .logo .logo-link {
-        width: 138px;
-        width: 8.625rem;
-        height: 36px;
-        height: 2.25rem; }
-      .header .header-content .logo img {
-        height: 36px;
-        height: 2.25rem;
-        width: 100%; }
-    .header .header-content .nav-list {
-      display: flex;
-      flex-direction: row;
-      text-align: center; }
-      .header .header-content .nav-list .nav-item {
-        height: 42px;
-        height: 2.625rem;
-        margin: 0px 12px;
-        margin: 0rem 0.75rem;
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .header .header-content .nav-list .nav-item:last-child {
-          padding: 10px 15px;
-          padding: 0.625rem 0.9375rem;
-          border-radius: 50px;
-          background-color: #0f730c; }
-          .header .header-content .nav-list .nav-item:last-child .nav-link {
-            color: #ffffff; }
-          .header .header-content .nav-list .nav-item:last-child:hover {
-            background-color: #155724; }
-        .header .header-content .nav-list .nav-item .nav-link {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 18px;
-          color: #0f730c;
-          line-height: 2.7; }
-          .header .header-content .nav-list .nav-item .nav-link .icon.fa-user {
-            padding-right: 6px;
-            padding-right: 0.375rem; }
-          .header .header-content .nav-list .nav-item .nav-link .icon.fa-caret-down {
-            padding-left: 10px;
-            padding-left: 0.625rem; }
-          .header .header-content .nav-list .nav-item .nav-link .display-name {
-            width: 100px;
-            width: 6.25rem;
-            display: inline-block;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden; }
-        .header .header-content .nav-list .nav-item .avatar-img {
-          width: 20px;
-          width: 1.25rem;
-          height: 20px;
-          height: 1.25rem; }
-    .header .header-content .option-item {
-      display: inline-block;
-      height: 24px;
-      height: 1.5rem;
-      padding: 0px 12px;
-      padding: 0rem 0.75rem;
-      margin: 12px 0px;
-      margin: 0.75rem 0rem; }
-      .header .header-content .option-item .option-link {
-        height: 24px;
-        height: 1.5rem; }
-
-.nav-dropdown {
-  position: relative; }
-  .nav-dropdown:hover .dropdown-content {
-    display: block; }
-  .nav-dropdown .dropbtn {
-    margin: 0;
-    border: none;
-    font-size: 16px;
-    outline: none; }
-  .nav-dropdown .dropdown-content {
-    min-width: 175px;
-    min-width: 10.9375rem;
-    right: -50px;
-    right: -3.125rem;
-    padding-top: 10px;
-    padding-top: 0.625rem;
-    padding-bottom: 10px;
-    padding-bottom: 0.625rem;
-    position: absolute;
-    z-index: 1;
-    display: none;
-    top: 100%;
-    border-radius: 5px;
-    background-color: #f3f3f3;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-    .nav-dropdown .dropdown-content a {
-      padding: 12px 16px;
-      padding: 0.75rem 1rem;
-      display: block;
-      text-align: left;
-      text-decoration: none;
-      background: transparent;
-      color: #292929;
-      font-size: 15px;
-      font-weight: 500; }
-      .nav-dropdown .dropdown-content a:hover {
-        color: #0f730c;
-        background: #e8e8e8; }
+      margin-right: auto; }
+      .header .navbar .navbar-main .navbar-nav .nav-item .nav-link {
+        padding: 10px 15px;
+        padding: 0.625rem 0.9375rem;
+        font-size: 17px;
+        color: #595959; }
+        .header .navbar .navbar-main .navbar-nav .nav-item .nav-link.nav-link-active {
+          color: #0d6efd; }
+        .header .navbar .navbar-main .navbar-nav .nav-item .nav-link:hover {
+          color: #0d6efd; }
+    .header .navbar .navbar-main .navbar-action .btn-login {
+      color: #595959; }
+      .header .navbar .navbar-main .navbar-action .btn-login:hover {
+        color: #0d6efd; }
 
 .pd-0 {
   padding: 0px;
@@ -1208,7 +1198,7 @@ button {
   overflow: hidden; }
 
 .txt-primary {
-  color: #0f730c; }
+  color: #0d6efd; }
 
 .w-100 {
   width: 100%; }
