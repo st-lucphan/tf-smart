@@ -457,6 +457,81 @@ button {
     width: 100%;
     vertical-align: middle; }
 
+.section-blog {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem;
+  background-color: #f5f7fc; }
+  .section-blog .section-blog-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 28px;
+    color: #071e55; }
+  .section-blog .blogs-list {
+    justify-content: center; }
+    .section-blog .blogs-list .blog-item {
+      margin-top: 40px;
+      margin-top: 2.5rem;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px; }
+      .section-blog .blogs-list .blog-item .popup-gallery {
+        position: relative; }
+        .section-blog .blogs-list .blog-item .popup-gallery:hover .gallery {
+          opacity: 0.75; }
+        .section-blog .blogs-list .blog-item .popup-gallery .blog-img {
+          width: 100%;
+          vertical-align: middle;
+          border-radius: 8px 8px 0 0; }
+        .section-blog .blogs-list .blog-item .popup-gallery .gallery {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          border-radius: 8px 8px 0 0;
+          text-align: center;
+          opacity: 0;
+          background: #164145; }
+          .section-blog .blogs-list .blog-item .popup-gallery .gallery .gallery-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            color: #ffffff; }
+      .section-blog .blogs-list .blog-item .blog-content {
+        padding: 25px;
+        padding: 1.5625rem; }
+        .section-blog .blogs-list .blog-item .blog-content .blog-name {
+          margin-bottom: 10px;
+          margin-bottom: 0.625rem; }
+          .section-blog .blogs-list .blog-item .blog-content .blog-name .blog-link {
+            color: #071e55; }
+            .section-blog .blogs-list .blog-item .blog-content .blog-name .blog-link:hover {
+              text-decoration: underline;
+              color: #0d6efd; }
+        .section-blog .blogs-list .blog-item .blog-content .blog-info {
+          font-size: 14px;
+          font-style: italic;
+          color: #858585; }
+          .section-blog .blogs-list .blog-item .blog-content .blog-info .blog-icon {
+            padding-right: 4px;
+            padding-right: 0.25rem;
+            font-size: 17px;
+            line-height: 18px;
+            color: #656565; }
+        .section-blog .blogs-list .blog-item .blog-content .blog-description {
+          margin-top: 12px;
+          margin-top: 0.75rem;
+          font-size: 17px;
+          line-height: 1.5;
+          font-weight: 400;
+          color: #7c8595; }
+      .section-blog .blogs-list .blog-item:hover {
+        margin-top: 30px;
+        margin-top: 1.875rem;
+        transition: all 1s; }
+
 .section-footer {
   height: 175px;
   height: 10.9375rem;
