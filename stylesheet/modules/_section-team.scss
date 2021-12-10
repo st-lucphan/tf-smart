@@ -1,0 +1,64 @@
+.section-team {
+  @include pxRem(padding, 90 0);
+  background-color: map-get($color, white);
+  .section-team-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: 28px;
+    color: #071e55;
+  }
+  .team-list{
+    justify-content: center;
+    .team-item {
+      @include pxRem(margin-top, 30);
+      text-align: center;
+      .team-img {
+        width: 100%;
+        border-radius: 8px 8px;
+      }
+      .team-info {
+        @include pxRem(padding, 30 25 40 25);
+        .team-name {
+          color: #071e55;
+        }
+        .team-position {
+          @include pxRem(margin-bottom, 20);
+          font-size: 17px;
+          font-style: italic;
+          line-height: 1.5;
+          font-weight: 400;
+          color: #acacac;
+        }
+        .team-description {
+          @include pxRem(margin-bottom, 20);
+          font-size: 17px;
+          line-height: 1.5;
+          font-weight: 400;
+          color: map-get($color, secondary);
+        }
+        .contacts-list {
+          justify-content: center;
+          .contact-item {
+            @include pxRem(width, 36);
+            @include pxRem(height, 36);
+            @include pxRem(padding, 8 8);
+            @include pxRem(margin, 0 3);
+            border-radius: 50%;
+            color: map-get($color, white);
+            &.twitter {
+              background: map-get($color, twitter);
+            }
+            &.facebook {
+              background: map-get($color, fb);
+            }
+            &.instagram {
+              background: map-get($color, instagram);
+            }
+            &.dribble {
+              background: map-get($color, dribble);
+            }
+          }
+        }
+      }
+    }
+  }
+}

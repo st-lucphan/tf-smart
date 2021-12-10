@@ -376,6 +376,66 @@ button {
         font-size: 16px;
         color: #7c8595; }
 
+.section-team {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem;
+  background-color: #ffffff; }
+  .section-team .section-team-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 28px;
+    color: #071e55; }
+  .section-team .team-list {
+    justify-content: center; }
+    .section-team .team-list .team-item {
+      margin-top: 30px;
+      margin-top: 1.875rem;
+      text-align: center; }
+      .section-team .team-list .team-item .team-img {
+        width: 100%;
+        border-radius: 8px 8px; }
+      .section-team .team-list .team-item .team-info {
+        padding: 30px 25px 40px 25px;
+        padding: 1.875rem 1.5625rem 2.5rem 1.5625rem; }
+        .section-team .team-list .team-item .team-info .team-name {
+          color: #071e55; }
+        .section-team .team-list .team-item .team-info .team-position {
+          margin-bottom: 20px;
+          margin-bottom: 1.25rem;
+          font-size: 17px;
+          font-style: italic;
+          line-height: 1.5;
+          font-weight: 400;
+          color: #acacac; }
+        .section-team .team-list .team-item .team-info .team-description {
+          margin-bottom: 20px;
+          margin-bottom: 1.25rem;
+          font-size: 17px;
+          line-height: 1.5;
+          font-weight: 400;
+          color: #7c8595; }
+        .section-team .team-list .team-item .team-info .contacts-list {
+          justify-content: center; }
+          .section-team .team-list .team-item .team-info .contacts-list .contact-item {
+            width: 36px;
+            width: 2.25rem;
+            height: 36px;
+            height: 2.25rem;
+            padding: 8px 8px;
+            padding: 0.5rem 0.5rem;
+            margin: 0px 3px;
+            margin: 0rem 0.1875rem;
+            border-radius: 50%;
+            color: #ffffff; }
+            .section-team .team-list .team-item .team-info .contacts-list .contact-item.twitter {
+              background: #4099ff; }
+            .section-team .team-list .team-item .team-info .contacts-list .contact-item.facebook {
+              background: #3b5998; }
+            .section-team .team-list .team-item .team-info .contacts-list .contact-item.instagram {
+              background: #C92228; }
+            .section-team .team-list .team-item .team-info .contacts-list .contact-item.dribble {
+              background: #ea4c89; }
+
 .section-footer {
   height: 175px;
   height: 10.9375rem;
@@ -450,11 +510,7 @@ button {
           .section-footer .footer-bottom .social-icons li a.facebook:hover {
             background-color: #3b5998; }
           .section-footer .footer-bottom .social-icons li a.twitter:hover {
-            background-color: #00aced; }
-          .section-footer .footer-bottom .social-icons li a.linkedin:hover {
-            background-color: #007bb6; }
-          .section-footer .footer-bottom .social-icons li a.dribbble:hover {
-            background-color: #ea4c89; }
+            background-color: #4099ff; }
 
 .page-container {
   padding: 100px 0px 300px;
