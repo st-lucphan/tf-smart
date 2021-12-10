@@ -1,0 +1,27 @@
+.section-partner {
+  @include pxRem(padding, 30 0 90 0);
+  background-color: rgb(245, 247, 252);
+  .section-partner-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: 28px;
+    color: #071e55;
+  }
+  .partners-list {
+    justify-content: center;
+    .partner-item {
+      @include pxRem(margin, 20 10 10 0);
+      @include pxRem(padding, 29 10);
+      box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+      border-radius: 8px;
+      background: map-get($color, white);
+      &:hover {
+        @include pxRem(margin-top, 10);
+        transition: all 1s;
+      }
+      .partner-item-img {
+        width: 100%;
+        vertical-align: middle;
+      }
+    }
+  }
+}
