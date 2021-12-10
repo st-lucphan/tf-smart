@@ -1,0 +1,23 @@
+.section-testimonial {
+  @include pxRem(padding-top, 90);
+  .testimonial-content {
+    @include pxRem(margin-bottom, 25);
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-style: italic;
+    color: map-get($color, secondary);
+  }
+  .testimonial-author {
+    font-size: 18px;
+    color: #071e55;
+  }
+  .testimonial-position {
+    font-size: 17px;
+    color: map-get($color, primary);
+  }
+  .testimonial-img {
+    width: 100%;
+    vertical-align: middle;
+  }
+}
