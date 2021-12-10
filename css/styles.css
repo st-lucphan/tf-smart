@@ -316,6 +316,40 @@ button {
         width: 100%;
         vertical-align: middle; }
 
+.section-discover {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem;
+  background-color: #ffffff; }
+  .section-discover .section-discover-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #071e55; }
+  .section-discover .section-discover-content {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #7c8595; }
+  .section-discover .benefits {
+    margin-bottom: 25px;
+    margin-bottom: 1.5625rem; }
+    .section-discover .benefits .benefit-item {
+      margin-bottom: 4px;
+      margin-bottom: 0.25rem;
+      font-size: 17px;
+      color: #7c8595; }
+      .section-discover .benefits .benefit-item i {
+        padding: 5px;
+        padding: 0.3125rem;
+        margin-right: 1px;
+        margin-right: 0.0625rem;
+        vertical-align: middle;
+        font-size: 26px;
+        line-height: 1; }
+
 .section-footer {
   height: 175px;
   height: 10.9375rem;
