@@ -350,6 +350,32 @@ button {
         font-size: 26px;
         line-height: 1; }
 
+.section-facts {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem;
+  background-color: #f5f7fc; }
+  .section-facts .section-facts-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 36px;
+    color: #071e55; }
+  .section-facts .facts-list {
+    justify-content: center; }
+    .section-facts .facts-list .fact-item {
+      border-radius: 8px;
+      text-align: center; }
+      .section-facts .facts-list .fact-item .fact-item-icon {
+        font-size: 46px; }
+      .section-facts .facts-list .fact-item .fact-item-title {
+        font-size: 20px; }
+      .section-facts .facts-list .fact-item .fact-item-content {
+        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
+        padding: 0px 10px;
+        padding: 0rem 0.625rem;
+        font-size: 16px;
+        color: #7c8595; }
+
 .section-footer {
   height: 175px;
   height: 10.9375rem;
@@ -1341,6 +1367,12 @@ button {
 
 .txt-danger {
   color: #e52f37; }
+
+.txt-red {
+  color: #fc6a3f; }
+
+.txt-warning {
+  color: #fe9c24; }
 
 .align-items-center {
   align-items: center; }

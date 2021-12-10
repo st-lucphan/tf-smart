@@ -43,6 +43,12 @@
 .txt-danger {
   color: map-get($color, danger);
 }
+.txt-red {
+  color: map-get($color, red);
+}
+.txt-warning {
+  color: map-get($color, warning);
+}
 .align-items-center {
   align-items: center;
 }
