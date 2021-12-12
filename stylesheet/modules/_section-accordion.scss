@@ -1,0 +1,60 @@
+.section-accordion {
+  @include pxRem(padding, 90 0);
+  background-color: rgb(245, 247, 252);
+  .section-accordion-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #071e55;
+  }
+  .section-accordion-content {
+    @include pxRem(margin-bottom, 20);
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7c8595;
+  }
+  .testim-platform {
+    &.first {
+      border-right: 1px solid #cecece;
+    }
+    .testim-platform-name {
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #071e55;
+    }
+    .testim-rating {
+      i {
+        color: #fdcc28;
+      }
+    }
+  }
+  .accordion-item {
+    @include pxRem(margin-bottom, 20);
+    @include pxRem(padding, 20 25);
+    display: flex;
+    align-items: center;
+    background-color: map-get($color, white);
+    .accordion-icon {
+      @include pxRem(width, 46);
+      @include pxRem(height, 46);
+      @include pxRem(margin-right, 10);
+      @include pxRem(padding, 10);
+      color: map-get($color, green);
+      font-size: 20px;
+      line-height: 1;
+      border: 2px solid map-get($color, green);
+      border-radius: 50%;
+    }
+    &::after {
+      display: inline-block;
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-left: auto;
+      content: "";
+      background-image: url(../../images/arrow.svg);
+    }
+  }
+}
