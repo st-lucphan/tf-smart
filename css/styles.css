@@ -541,7 +541,7 @@ button {
     margin-bottom: 1.25rem;
     padding-bottom: 4px 0px;
     padding-bottom: 0.25rem 0rem;
-    font-size: 28px;
+    font-size: 36px;
     color: #071e55; }
   .section-plan .plans-list .plan-item {
     padding: 55px;
@@ -579,6 +579,49 @@ button {
           padding-right: 5px;
           padding-right: 0.3125rem;
           vertical-align: middle; }
+
+.section-feature {
+  padding: 90px 0px 70px 0px;
+  padding: 5.625rem 0rem 4.375rem 0rem;
+  background-color: #f5f7fc; }
+  .section-feature .section-feature-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    padding-bottom: 4px 0px;
+    padding-bottom: 0.25rem 0rem;
+    font-size: 36px;
+    color: #071e55; }
+  .section-feature .features-list .feature-item {
+    display: flex; }
+    .section-feature .features-list .feature-item .feature-icon {
+      width: 55px;
+      width: 3.4375rem;
+      height: 55px;
+      height: 3.4375rem;
+      font-size: 40px;
+      line-height: 1.2; }
+      .section-feature .features-list .feature-item .feature-icon.bi-gem {
+        color: #a9d129; }
+      .section-feature .features-list .feature-item .feature-icon.bi-people {
+        color: #50a0d2; }
+      .section-feature .features-list .feature-item .feature-icon.bi-bell {
+        color: #fe9c24; }
+      .section-feature .features-list .feature-item .feature-icon.bi-gear {
+        color: #3473b8; }
+      .section-feature .features-list .feature-item .feature-icon.bi-cash-stack {
+        color: #fc6a3f; }
+      .section-feature .features-list .feature-item .feature-icon.bi-chat-left-text {
+        color: #87ac34; }
+    .section-feature .features-list .feature-item .feature-title {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #071e55; }
+    .section-feature .features-list .feature-item .feature-description {
+      font-size: 17px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #7c8595; }
 
 .section-footer {
   height: 175px;

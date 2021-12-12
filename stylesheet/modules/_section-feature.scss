@@ -1,0 +1,51 @@
+.section-feature {
+  @include pxRem(padding, 90 0 70 0);
+  background-color: rgb(245, 247, 252);
+  .section-feature-title{
+    @include pxRem(margin-bottom, 20);
+    @include pxRem(padding-bottom, 4 .0);
+    font-size: 36px;
+    color: #071e55;
+  }
+  .features-list {
+    .feature-item {
+      display: flex;
+      .feature-icon {
+        @include pxRem(width, 55);
+        @include pxRem(height, 55);
+        font-size: 40px;
+        line-height: 1.2;
+        &.bi-gem {
+          color: #a9d129;
+        }
+        &.bi-people {
+          color: #50a0d2;
+        }
+        &.bi-bell {
+          color: #fe9c24;
+        }
+        &.bi-gear {
+          color: #3473b8;
+        }
+        &.bi-cash-stack {
+          color: #fc6a3f;
+        }
+        &.bi-chat-left-text {
+          color: #87ac34;
+        }
+      }
+      .feature-title {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #071e55;
+      }
+      .feature-description {
+        font-size: 17px;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #7c8595;
+      }
+    }
+  }
+}
