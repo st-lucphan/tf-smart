@@ -1,0 +1,37 @@
+.section-contact {
+  @include pxRem(padding, 90 0);
+  .section-contact-title {
+    @include pxRem(margin-bottom, 20);
+    font-size: 28px;
+    color: #071e55;
+  }
+  .contact-maps {
+    @include pxRem(padding, 10);
+    @include pxRem(margin-bottom, 20);
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: #f6f7f8;
+    border: 1px solid #eaeaea;
+  }
+  .head-office {
+    @include pxRem(margin-bottom, 20);
+    font-size: 20px;
+    color: #071e55;
+  }
+  .contact-info {
+    @include pxRem(margin-bottom, 8);
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7c8595;
+    .contact-icon {
+      font-size: 18px;
+      padding-right: 5px;
+      vertical-align: middle;
+      color: #1e90ff;
+    }
+    a {
+      color: #7c8595;
+    }
+  }
+}

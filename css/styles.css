@@ -587,8 +587,6 @@ button {
   .section-feature .section-feature-title {
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
-    padding-bottom: 4px 0px;
-    padding-bottom: 0.25rem 0rem;
     font-size: 36px;
     color: #071e55; }
   .section-feature .features-list .feature-item {
@@ -622,6 +620,61 @@ button {
       line-height: 1.5;
       font-weight: 400;
       color: #7c8595; }
+
+.section-contact {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem; }
+  .section-contact .section-contact-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 28px;
+    color: #071e55; }
+  .section-contact .contact-maps {
+    padding: 10px;
+    padding: 0.625rem;
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    max-width: 100%;
+    border-radius: 8px;
+    background-color: #f6f7f8;
+    border: 1px solid #eaeaea; }
+  .section-contact .head-office {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 20px;
+    color: #071e55; }
+  .section-contact .contact-info {
+    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7c8595; }
+    .section-contact .contact-info .contact-icon {
+      font-size: 18px;
+      padding-right: 5px;
+      vertical-align: middle;
+      color: #1e90ff; }
+    .section-contact .contact-info a {
+      color: #7c8595; }
+
+.contact-form .contact-input {
+  height: 55px;
+  height: 3.4375rem;
+  margin-bottom: 23px;
+  margin-bottom: 1.4375rem;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #727272;
+  background-color: #f6f7f8;
+  border: 1px solid #ececec;
+  font-size: 14px; }
+  .contact-form .contact-input.contact-commnent {
+    height: 205px;
+    height: 12.8125rem;
+    padding-top: 10px;
+    padding-top: 0.625rem; }
 
 .section-footer {
   height: 175px;

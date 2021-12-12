@@ -3,7 +3,6 @@
   background-color: rgb(245, 247, 252);
   .section-feature-title{
     @include pxRem(margin-bottom, 20);
-    @include pxRem(padding-bottom, 4 .0);
     font-size: 36px;
     color: #071e55;
   }
