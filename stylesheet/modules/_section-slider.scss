@@ -1,0 +1,55 @@
+.section-slider {
+  @include pxRem(padding, 90 0 30 0);
+  background-color: rgb(245, 247, 252);
+  .slider-left {
+    position: relative;
+    .slider-img {
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.15) 15px 10px 20px 0px
+    }
+    .video-play-icon {
+      @include pxRem(width, 90);
+      @include pxRem(height, 90);
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 90px;
+      text-align: center;
+      font-size: 40px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.78);
+      .bi-caret-right-fill {
+        color: #164145;
+      }
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.99);
+      }
+    }
+  }
+  .bi-chat-left-quote {
+    @include pxRem(margin-bottom, 20);
+    display: block;
+    font-size: 40px;
+    line-height: 1;
+  }
+  .slider-content {
+    @include pxRem(margin-bottom, 20);
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #7c8595;
+  }
+  .slider-author {
+    @include pxRem(margin-bottom, 5);
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #071e55;
+    .slider-position {
+      text-transform: none;
+    }
+  }
+}
