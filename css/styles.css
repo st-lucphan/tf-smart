@@ -532,6 +532,54 @@ button {
         margin-top: 1.875rem;
         transition: all 1s; }
 
+.section-plan {
+  padding: 90px 0px;
+  padding: 5.625rem 0rem;
+  background-color: #ffffff; }
+  .section-plan .section-plan-title {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    padding-bottom: 4px 0px;
+    padding-bottom: 0.25rem 0rem;
+    font-size: 28px;
+    color: #071e55; }
+  .section-plan .plans-list .plan-item {
+    padding: 55px;
+    padding: 3.4375rem;
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    border-bottom: 3px solid #e0e0e0;
+    box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+    border-radius: 8px 8px; }
+    .section-plan .plans-list .plan-item .plan-title {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #071e55; }
+    .section-plan .plans-list .plan-item .plan-price {
+      font-size: 65px;
+      line-height: 1.1;
+      font-weight: 600;
+      color: #071e55; }
+    .section-plan .plans-list .plan-item .plan-subtitle {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 600;
+      color: #6a6a6a; }
+    .section-plan .plans-list .plan-item .info-list {
+      text-align: left; }
+      .section-plan .plans-list .plan-item .info-list .info-item {
+        font-size: 16px;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #6a6a6a; }
+        .section-plan .plans-list .plan-item .info-list .info-item .info-item-icon {
+          padding-right: 5px;
+          padding-right: 0.3125rem;
+          vertical-align: middle; }
+
 .section-footer {
   height: 175px;
   height: 10.9375rem;
