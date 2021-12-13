@@ -4,8 +4,8 @@
 }
 .container {
   max-width: 1172px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   margin: 0 auto;
 }
 .grid-box {
@@ -17,14 +17,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 0 -10px;
+  margin: 0 -12px;
 }
 .row-ck {
   @include pxRem(padding-bottom, 40);
 }
 .col {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 @for $i from 1 through 12 {

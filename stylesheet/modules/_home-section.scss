@@ -1,0 +1,43 @@
+.home-section {
+  background-color: map-get($color, grey-e);
+  @include pxRem(padding, 30 0 50 0);
+  .home-section-title {
+    @include pxRem(margin-bottom, 20);
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .home-section-content {
+    @include pxRem(margin-bottom, 35);
+    font-size: 17px;
+    color: map-get($color, secondary);
+  }
+  .newsletter-form {
+    border-radius: 5px;
+    .email {
+      @include pxRem(padding, 0 20 0 45);
+      @include pxRem(height, 59);
+      @include pxRem(width, 350);
+      border: none;
+      font-size: 17px;
+      background: url(../../images/email.png) no-repeat 15px 20px;
+      background-color: map-get($color, white);
+    }
+    .btn-submit {
+      @include pxRem(height, 59);
+      border: none;
+      border-radius: 0 5px 5px 0;
+      font-weight: 700;
+      cursor: pointer;
+      color: map-get($color, white);
+      background: map-get($color, danger);
+      &:hover {
+        background: map-get($color, red-c);
+      }
+    }
+  }
+  .newsletter-form-terms {
+    @include pxRem(margin, 15 0 5 0);
+    font-size: map-get($font-size, sm);
+    color: map-get($color, grey-f);
+  }
+}

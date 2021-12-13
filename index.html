@@ -4,10 +4,544 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>tf-smart</title>
 </head>
 <body>
-  <h1 class="txt-uppercase">h1</h1>
+  <header class="header">
+    <nav class="container navbar">
+      <a class="navbar-branch"><i class="bi bi-intersect logo"></i> Smart</a>
+      <div class="navbar-main">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link nav-link-active" href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#accordion">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plan">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-action">
+          <a class="btn btn-login" href=""><i class="bi bi-person"></i> Login</a>
+          <button class="btn btn-primary" href="">Sign up</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="home-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-6">
+            <h1 class="home-section-title">Discover The Wold's Most Advanced Online Tool <i class="bi bi-chat-left-quote txt-green"></i></h1>
+            <p class="home-section-content">Track and analyze all your data in one central location.</p>
+            <form class="newsletter-form">
+              <input class="email" type="email" name="nf_email" placeholder="Enter Your Email Address"> 
+              <input type="submit" value="GET STARTED!" class="btn-submit">
+            </form>
+            <p class="newsletter-form-terms">
+              <span><i class="bi bi-check2 txt-green"></i> Free 30-Day Trial</span>
+              <span><i class="bi bi-check2 txt-green"></i> Money Back Guarantee</span>
+            </p>
+          </div>
+          <div class="col col-6">
+            <img src="images/ui-design.png" alt="picture">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-service" id="about">
+      <div class="container">
+        <h3 class="col col-12 section-service-title txt-center">How It Works</h3>
+        <ul class="row services-list">
+          <li class="col col-4">
+            <div class="service-item">
+              <i class="bi bi-megaphone service-item-icon txt-danger"></i>
+              <h4 class="service-item-title">Search Oportunities</h4>
+              <p class="service-item-content">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>  
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="service-item">
+              <i class="bi bi-gem service-item-icon txt-green"></i>
+              <h4 class="service-item-title">Reach Clients</h4>
+              <p class="service-item-content">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="service-item">
+              <i class="bi bi-speedometer2 service-item-icon txt-primary"></i>
+              <h4 class="service-item-title">Get Rewarded</h4>
+              <p class="service-item-content">Curabitur quamtis etsum lacus etsumis nulatis iaculis etsum vitae etsum ets nisle varius.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-slider">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-6 slider-left">
+            <img class="slider-img mr-4" src="images/testimonials3.jpg" alt="testimonials">
+            <a class="video-play-icon" href="https://www.youtube.com/watch?v=FPfQMVf4vwQ">
+              <i class="bi bi-caret-right-fill"></i>
+            </a>
+          </div>
+          <div class="col col-6">
+            <i class="bi bi-chat-left-quote txt-green"></i>
+            <p class="slider-content">Nemo enimat ipsam voluptatem quia voluptas situm ets aspernatis netsum loris fugit, sed quia magnitus honoratis quis ratione sequi etum nets.</p>
+            <h6 class="slider-author">Jennifer Smith<span class="slider-position">  — Designer <span class="txt-red">@EpicThemes</span></span></h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-partner">
+      <div class="container">
+        <h3 class="col col-12 section-partner-title txt-center">Trusted By Over 9,000+ Businesses</h3>
+        <ul class="row partners-list">
+          <li class="col col-1"></li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner1.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner2.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner3.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner4.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner5.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-1"></li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner6.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner7.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner9.png" alt="zendesk">
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="partner-item">
+              <img class="partner-item-img" src="images/partner8.png" alt="zendesk">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-discover">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-6">
+            <h1 class="section-discover-title">Discover how we can help you to grow your business fast.</h1>
+            <p class="section-discover-content">Anticas quia voluptas sit aspernatur netsum demo ets ipsam voluptatem lorem fugit, seditum netis velas net nesciunt.</p>
+            <ul class="benefits">
+              <li class="benefit-item"><i class="bi bi-check txt-primary"></i>Quias netus magni netsum qui ratione sequi.</li>
+              <li class="benefit-item"><i class="bi bi-check txt-primary"></i>Venis ratione sequi netus enim tempor magni.</li>
+              <li class="benefit-item"><i class="bi bi-check txt-primary"></i>Enim ipsam netus voluptatem voluptas.</li>
+            </ul>
+            <button class="btn btn-primary">Discover More</button>
+          </div>
+          <div class="col col-6">
+            <img src="images/digital-marketing.png" alt="picture">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-facts">
+      <div class="container">
+        <h3 class="col col-12 section-facts-title txt-center">Fun Facts About Our Agency</h3>
+        <ul class="row facts-list">
+          <li class="col col-2">
+            <div class="fact-item">
+              <i class="bi bi-gift-fill fact-item-icon txt-primary"></i>
+              <h4 class="fact-item-title">1050+</h4>
+              <p class="fact-item-content">Projects Completed</p>  
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="fact-item">
+              <i class="bi bi-heart-fill fact-item-icon txt-red"></i>
+              <h4 class="fact-item-title">217k</h4>
+              <p class="fact-item-content">Happy Clients</p>
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="fact-item">
+              <i class="bi bi-award-fill fact-item-icon txt-green"></i>
+              <h4 class="fact-item-title">1210</h4>
+              <p class="fact-item-content">Design Awards</p>
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="fact-item">
+              <i class="bi bi-basket3-fill fact-item-icon txt-red"></i>
+              <h4 class="fact-item-title">217k</h4>
+              <p class="fact-item-content">Happy Clients</p>
+            </div>
+          </li>
+          <li class="col col-2">
+            <div class="fact-item">
+              <i class="bi bi-bell-fill fact-item-icon txt-warning"></i>
+              <h4 class="fact-item-title">2137</h4>
+              <p class="fact-item-content">Line Of Codes</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-team" id="team">
+      <div class="container">
+        <h3 class="col col-12 section-team-title txt-center">Meet Our Team</h3>
+        <ul class="row team-list">
+          <li class="col col-4">
+            <div class="team-item">
+              <img  class="team-img" src="images/team1.jpg" alt="member1">
+              <div class="team-info">
+                <h3 class="team-name">Christina Hawkings</h3>
+                <p class="team-position">Head of SEO</p>
+                <p class="team-description">Johnathan is our  co-founder and has developed search strategies for a variety of clients for over 5 years.</p>
+                <ul class="row contacts-list">
+                  <li><a href="#" class="contact-item twitter"><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="#" class="contact-item instagram"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href="#" class="contact-item facebook"><i class="bi bi-mic"></i></a></li>
+                  <li><a href="#" class="contact-item dribble"><i class="bi bi-envelope-open"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="team-item">
+              <img  class="team-img" src="images/team2.jpg" alt="member2">
+              <div class="team-info">
+                <h3 class="team-name">Andreas Johansons</h3>
+                <p class="team-position">Marketing Manager</p>
+                <p class="team-description">Andres fell in love with marketing at the school and looks forward to being part of the industry for years.</p>
+                <ul class="row contacts-list">
+                  <li><a href="#" class="contact-item twitter"><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="#" class="contact-item instagram"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href="#" class="contact-item facebook"><i class="bi bi-mic"></i></a></li>
+                  <li><a href="#" class="contact-item dribble"><i class="bi bi-envelope-open"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="team-item">
+              <img  class="team-img" src="images/team3.jpg" alt="member3">
+              <div class="team-info">
+                <h3 class="team-name">Alexandra Smiths</h3>
+                <p class="team-position">SEO Specialist</p>
+                <p class="team-description">Graduating with a degree in Spanish, English and French, she has always loved writing.</p>
+                <ul class="row contacts-list">
+                  <li><a href="#" class="contact-item twitter"><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="#" class="contact-item instagram"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href="#" class="contact-item facebook"><i class="bi bi-mic"></i></a></li>
+                  <li><a href="#" class="contact-item dribble"><i class="bi bi-envelope-open"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-accordion" id="accordion">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-5">
+            <h3 class="section-accordion-title">How It Works.</h3>
+            <p class="section-accordion-content">Quis autem velis ets reprehender net etid quiste netsum voluptate. Utise wisi enim minim veniam, quis etsad ets aspernatis netsum stationes nets qualitats.</p>
+            <div class="row">
+              <div class="col col-4">
+                <div class="testim-platform first">
+                  <p class="testim-platform-name">LinkedIn</p>
+                  <div class="testim-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-4">
+                <div class="testim-platform">
+                  <p  class="testim-platform-name">Upwork</p>
+                  <div class="testim-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-1">
+          </div>
+          <div class="col col-6">
+            <ul class="accordions-list">
+              <li class="accordion-item">
+                <i class="accordion-icon bi bi-pencil-fill"></i>
+                Create Account
+              </li>
+              <li class="accordion-item">
+                <i class="accordion-icon bi bi-bar-chart-line-fill"></i>
+                Choose Package
+              </li>
+              <li class="accordion-item">
+                <i class="accordion-icon bi bi-hand-thumbs-up-fill"></i>
+                Enjoy Smart
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-plan" id="plan">
+      <div class="container">
+        <h3 class="col col-12 section-plan-title txt-center">Pricing for every business, at any stage</h3>
+        <ul class="row plans-list">
+          <li class="col col-4">
+            <div class="plan-item">
+              <h3 class="plan-title">BASIC</h3>
+              <p class="plan-price mt-4 mb-2">$25</p>
+              <p class="plan-subtitle mb-6">Per Month</p>
+              <ul class="info-list">
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Custom Charts</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>5 Mailboxes, 10 Gb Storage</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Unlimited Free Dashboards</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Access to all APIs</li>
+              </ul>
+              <button class="btn btn-outline-primary mt-6">FREE 15-DAY TRIAL</button>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="plan-item">
+              <h3 class="plan-title">BASIC</h3>
+              <p class="plan-price mt-4 mb-2">$25</p>
+              <p class="plan-subtitle mb-6">Per Month</p>
+              <ul class="info-list">
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Custom Charts</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>5 Mailboxes, 10 Gb Storage</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Unlimited Free Dashboards</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Access to all APIs</li>
+              </ul>
+              <button class="btn btn-primary mt-6">FREE 15-DAY TRIAL</button>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="plan-item">
+              <h3 class="plan-title">BASIC</h3>
+              <p class="plan-price mt-4 mb-2">$25</p>
+              <p class="plan-subtitle mb-6">Per Month</p>
+              <ul class="info-list">
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Custom Charts</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>5 Mailboxes, 10 Gb Storage</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Unlimited Free Dashboards</li>
+                <li class="info-item"><i class="bi bi-check-circle-fill info-item-icon txt-primary"></i>Access to all APIs</li>
+              </ul>
+              <button class="btn btn-outline-primary mt-6">FREE 15-DAY TRIAL</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-feature">
+      <div class="container">
+        <h3 class="col col-12 section-feature-title txt-center">Amazing Features</h3>
+        <ul class="row features-list">
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-gem"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">Support 24/7</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-people"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">User Friendly</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-bell"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">Notifications</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-gear"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">Accesibility</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-cash-stack"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">Cost Control</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="feature-item mt-6 mb-4">
+              <i class="feature-icon bi bi-chat-left-text"></i>
+              <div class="feature-content ml-4">
+                <h3 class="feature-title mb-2">Chat With Friends</h3>
+                <p class="feature-description">Utise wisi enim nets venias, quis tation ullamcorper nets lobotis nisle consequat.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-testimonial">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-6 txt-center">
+            <p class="testimonial-content">“People who succeed in business aren't afraid to hear feedback from their customers - they actually thrive from it.”</p>
+            <h5 class="testimonial-author">Johanna S. Richardson</h5>
+            <p class="testimonial-position">CEO Essentials</p>
+          </div>
+          <div class="col col-6">
+            <img class="testimonial-img"src="images/testimonials-woman.jpg" alt="picture">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-blog" id="blog">
+      <div class="container">
+        <h3 class="col col-12 section-blog-title txt-center">Meet Our Team</h3>
+        <ul class="row blogs-list">
+          <li class="col col-4">
+            <div class="blog-item">
+              <div class="popup-gallery">
+                <img  class="blog-img" src="images/blog4.jpg" alt="member2">
+                <div class="gallery"><i class="bi bi-link-45deg gallery-icon"></i></div>
+              </div>
+              <div class="blog-content">
+                <h3 class="blog-name"><a class="blog-link"href="#">The Guide To LinkedIn Ads</a></h3>
+                <a href="#" class="blog-info">
+                  <i class="bi bi-card-text blog-icon"></i> 
+                  Marketing &amp; Design — 11 Min Read
+                </a>
+                <p class="blog-description">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="blog-item">
+              <div class="popup-gallery">
+                <img  class="blog-img" src="images/blog2.jpg" alt="member2">
+                <span class="gallery"><i class="bi bi-link-45deg gallery-icon"></i></span>
+              </div>
+              <div class="blog-content">
+                <h3 class="blog-name"><a class="blog-link"href="#">Affinity Designer Quick Start</a></h3>
+                <a href="#" class="blog-info">
+                  <i class="bi bi-play-circle blog-icon"></i> 
+                  SaaS Solutions &amp; 25 Min Watch
+                </a>
+                <p class="blog-description">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
+              </div>
+            </div>
+          </li>
+          <li class="col col-4">
+            <div class="blog-item">
+              <div class="popup-gallery">
+                <img  class="blog-img" src="images/blog3.jpg" alt="member2">
+                <span class="gallery"><i class="bi bi-link-45deg gallery-icon"></i></span>
+              </div>
+              <div class="blog-content">
+                <h3 class="blog-name"><a class="blog-link"href="#">Our Happy Team</a></h3>
+                <a href="#" class="blog-info">
+                  <i class="bi bi-mic blog-icon"></i> 
+                  Product Launch &amp; 19 Min Listen
+                </a>
+                <p class="blog-description">Quis autem velis reprehender nets quiste voluptate velite estum quants etsamis sedit varias nets.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col col-6">
+            <h3 class="section-contact-title">Get in touch</h3>
+            <form class="contact-form">
+              <input class="contact-input" required name="contact_names" placeholder="Full Name*" type="text">
+              <input class="contact-input" required name="contact_email" placeholder="Email Adress*" type="email">
+              <input class="contact-input" required name="contact_phone" placeholder="Phone Number*" type="text">
+              <textarea class="contact-input contact-commnent" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
+              <button class="btn btn-primary">SEND MESSAGE</button>
+          </form>
+          </div>
+          <div class="col col-6">
+            <h3 class="section-contact-title">How to find us</h3>
+            <iframe class="contact-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335" width="600" height="260" style="border:0" allowfullscreen=""></iframe>
+            <h5 class="head-office">Head Office</h5>
+            <p class="contact-info"><i class="contact-icon bi bi-geo-alt-fill"></i> 10 Oxford Street, London, UK, E1 1EC</p>
+            <p class="contact-info"><i class="contact-icon bi bi-envelope-open-fill"></i> <a href="mailto:contact@youremail.com">office@smart.co.uk</a></p>
+            <p class="contact-info"><i class="contact-icon bi bi-telephone-fill"></i> +44 987 654 321</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-7">
+          <p class="copy-right">© 2021 <span class="branch-name">Smart</span>. Designed by <a class="footer-link" href="https://1.envato.market/rkB1y" target="_blank">Epic-Themes</a></p>
+        </div>
+        <div class="col col-5">
+          <ul class="social-list">
+            <li class="follow">Follw us:</li>
+            <li><a href="#" class="twitter"><i class="social-icon bi bi-twitter"></i></a></li>
+            <li><a href="#" class="instagram"><i class="social-icon bi bi-instagram"></i></a></li>
+            <li><a href="#" class="whatsapp"><i class="social-icon bi bi-whatsapp"></i></a></li>
+            <li><a href="#" class="google"><i class="social-icon bi bi-google"></i></a></li>
+            <li><a href="#" class="github"><i class="social-icon bi bi-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

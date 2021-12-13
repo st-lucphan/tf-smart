@@ -1,0 +1,83 @@
+.section-blog {
+  @include pxRem(padding, 90 0);
+  background-color: map-get($color, grey-e);
+  .section-blog-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: map-get($font-size, xxxl);
+    color: map-get($color, grey-a);
+  }
+  .blogs-list{
+    justify-content: center;
+    .blog-item {
+      @include pxRem(margin-top, 40);
+      background: map-get($color, white);
+      border-radius: 8px;
+      box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+      .popup-gallery {
+        &:hover .gallery{
+          opacity: 0.75;
+        }
+        position: relative;
+        .blog-img {
+          width: 100%;
+          vertical-align: middle;
+          border-radius: 8px 8px 0 0;
+        }
+        .gallery {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          border-radius: 8px 8px 0 0;
+          text-align: center;
+          opacity: 0;
+          background: map-get($color, grey-k);
+          .gallery-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: map-get($font-size, xxxxl);
+            color: map-get($color, white);
+          }
+        }
+      }
+      .blog-content {
+        @include pxRem(padding, 25);
+        .blog-name {
+          @include pxRem(margin-bottom, 10);
+          .blog-link {
+            color: map-get($color, grey-a);
+            &:hover {
+              text-decoration: underline;
+              color: map-get($color, primary);
+            }
+          }
+        }
+        .blog-info {
+          font-size: map-get($font-size, sm);
+          font-style: italic;
+          color: map-get($color, grey-g);
+          .blog-icon {
+            @include pxRem(padding-right, 4);
+            font-size: 17px;
+            line-height: 18px;
+            color: map-get($color, grey-i);
+          }
+        }
+        .blog-description {
+          @include pxRem(margin-top, 12);
+          font-size: 17px;
+          line-height: 1.5;
+          font-weight: 400;
+          color: map-get($color, secondary);
+        }
+      }
+      &:hover {
+        @include pxRem(margin-top, 30);
+        transition: all 1s;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.section-discover {
+  @include pxRem(padding, 90 0);
+  background-color: map-get($color, white);
+  .section-discover-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: map-get($font-size, xxxl);
+    line-height: 1.2;
+    color: map-get($color, grey-a);
+  }
+  .section-discover-content {
+    @include pxRem(margin-bottom, 20);
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: map-get($color, secondary);
+  }
+  .benefits {
+    @include pxRem(margin-bottom, 25);
+    .benefit-item {
+      @include pxRem(margin-bottom, 4);
+      font-size: 17px;
+      color: map-get($color, secondary);
+      i {
+        @include pxRem(padding, 5);
+        @include pxRem(margin-right, 1);
+        vertical-align: middle;
+        font-size: 26px;
+        line-height: 1;
+      }
+    }
+  }
+}

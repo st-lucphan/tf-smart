@@ -1,0 +1,32 @@
+.section-service {
+  @include pxRem(padding, 90 0);
+  .section-service-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: map-get($font-size, xxxxl);
+    color: map-get($color, grey-a);
+  }
+  .service-item {
+    @include pxRem(margin-top, 40);
+    @include pxRem(padding, 25 30);
+    box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
+    border-radius: 8px;
+    text-align: center;
+    &:hover {
+      @include pxRem(margin-top, 25);
+      transition: all 1s;
+    }
+    .service-item-icon {
+      font-size: 46px;
+    }
+    .service-item-title {
+      @include pxRem(margin-bottom, 20);
+      font-size: map-get($font-size, xl);
+    }
+    .service-item-content {
+      @include pxRem(margin-bottom, 20);
+      @include pxRem(padding, 0 10);
+      font-size: 17px;
+      color: map-get($color, secondary);
+    }
+  }
+}

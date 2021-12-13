@@ -1,0 +1,28 @@
+.section-facts {
+  @include pxRem(padding, 90 0);
+  background-color: map-get($color, grey-e);
+  .section-facts-title{
+    @include pxRem(margin-bottom, 20);
+    font-size: map-get($font-size, xxxxl);
+    color: map-get($color, grey-a);
+  }
+  .facts-list{
+    justify-content: center;
+    .fact-item {
+      border-radius: 8px;
+      text-align: center;
+      .fact-item-icon {
+        font-size: 46px;
+      }
+      .fact-item-title {
+        font-size: map-get($font-size, xl);
+      }
+      .fact-item-content {
+        @include pxRem(margin-bottom, 20);
+        @include pxRem(padding, 0 10);
+        font-size: 16px;
+        color: map-get($color, secondary);
+      }
+    }
+  }
+}
