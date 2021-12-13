@@ -1,10 +1,10 @@
 .section-blog {
   @include pxRem(padding, 90 0);
-  background-color: rgb(245, 247, 252);;
+  background-color: map-get($color, grey-e);
   .section-blog-title{
     @include pxRem(margin-bottom, 20);
     font-size: 28px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .blogs-list{
     justify-content: center;
@@ -32,7 +32,7 @@
           border-radius: 8px 8px 0 0;
           text-align: center;
           opacity: 0;
-          background: #164145;
+          background: map-get($color, grey-k);
           .gallery-icon {
             position: absolute;
             top: 50%;
@@ -48,7 +48,7 @@
         .blog-name {
           @include pxRem(margin-bottom, 10);
           .blog-link {
-            color: #071e55;
+            color: map-get($color, grey-a);
             &:hover {
               text-decoration: underline;
               color: map-get($color, primary);
@@ -58,12 +58,12 @@
         .blog-info {
           font-size: 14px;
           font-style: italic;
-          color: #858585;
+          color: map-get($color, grey-g);
           .blog-icon {
             @include pxRem(padding-right, 4);
             font-size: 17px;
             line-height: 18px;
-            color: #656565;
+            color: map-get($color, grey-i);
           }
         }
         .blog-description {

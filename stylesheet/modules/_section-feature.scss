@@ -1,10 +1,10 @@
 .section-feature {
   @include pxRem(padding, 90 0 70 0);
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   .section-feature-title{
     @include pxRem(margin-bottom, 20);
     font-size: 36px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .features-list {
     .feature-item {
@@ -15,35 +15,35 @@
         font-size: 40px;
         line-height: 1.2;
         &.bi-gem {
-          color: #a9d129;
+          color: map-get($color, green-c);
         }
         &.bi-people {
-          color: #50a0d2;
+          color: map-get($color, blue-d);
         }
         &.bi-bell {
-          color: #fe9c24;
+          color: map-get($color, warning);
         }
         &.bi-gear {
-          color: #3473b8;
+          color: map-get($color, blue-e);
         }
         &.bi-cash-stack {
-          color: #fc6a3f;
+          color: map-get($color, red-b);
         }
         &.bi-chat-left-text {
-          color: #87ac34;
+          color: map-get($color, green-d);
         }
       }
       .feature-title {
         font-size: 20px;
         line-height: 1.2;
         font-weight: 700;
-        color: #071e55;
+        color: map-get($color, grey-a);
       }
       .feature-description {
         font-size: 17px;
         line-height: 1.5;
         font-weight: 400;
-        color: #7c8595;
+        color: map-get($color, secondary);
       }
     }
   }

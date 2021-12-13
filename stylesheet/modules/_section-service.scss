@@ -3,7 +3,7 @@
   .section-service-title{
     @include pxRem(margin-bottom, 20);
     font-size: 36px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .service-item {
     @include pxRem(margin-top, 40);

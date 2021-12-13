@@ -1,33 +1,33 @@
 .section-accordion {
   @include pxRem(padding, 90 0);
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   .section-accordion-title {
     margin-bottom: 20px;
     font-size: 36px;
     line-height: 1.2;
     font-weight: 700;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .section-accordion-content {
     @include pxRem(margin-bottom, 20);
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
-    color: #7c8595;
+    color: map-get($color, secondary);
   }
   .testim-platform {
     &.first {
-      border-right: 1px solid #cecece;
+      border-right: 1px solid map-get($color, grey-g);
     }
     .testim-platform-name {
       margin-bottom: 5px;
       font-size: 18px;
       font-weight: bold;
-      color: #071e55;
+      color: map-get($color, grey-a);
     }
     .testim-rating {
       i {
-        color: #fdcc28;
+        color: map-get($color, yellow);
       }
     }
   }

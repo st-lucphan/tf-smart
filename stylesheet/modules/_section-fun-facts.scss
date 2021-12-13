@@ -1,10 +1,10 @@
 .section-facts {
   @include pxRem(padding, 90 0);
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   .section-facts-title{
     @include pxRem(margin-bottom, 20);
     font-size: 36px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .facts-list{
     justify-content: center;

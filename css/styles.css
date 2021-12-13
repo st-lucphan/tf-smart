@@ -150,12 +150,14 @@ button {
       background-color: #c3e6cb;
       color: #ffffff; }
     .btn.btn-primary:hover {
-      opacity: 0.7; }
+      color: #ffffff;
+      background-color: #0b5ed7;
+      border-color: #0a58ca; }
   .btn.btn-secondary {
     background-color: #7c8595;
     color: #ffffff; }
     .btn.btn-secondary:disabled {
-      background-color: #6c757d;
+      background-color: #cecece;
       color: #ffffff; }
   .btn.btn-blue {
     background-color: #007bff;
@@ -240,7 +242,7 @@ button {
       border: none;
       font-size: 17px;
       background: url(../../images/email.png) no-repeat 15px 20px;
-      background-color: white; }
+      background-color: #ffffff; }
     .home-section .newsletter-form .btn-submit {
       height: 59px;
       height: 3.6875rem;
@@ -513,7 +515,7 @@ button {
         .section-blog .blogs-list .blog-item .blog-content .blog-info {
           font-size: 14px;
           font-style: italic;
-          color: #858585; }
+          color: #cecece; }
           .section-blog .blogs-list .blog-item .blog-content .blog-info .blog-icon {
             padding-right: 4px;
             padding-right: 0.25rem;
@@ -552,9 +554,12 @@ button {
     border-bottom: 3px solid #e0e0e0;
     box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
     border-radius: 8px 8px; }
+    .section-plan .plans-list .plan-item:hover {
+      border-bottom: 3px solid #1e90ff;
+      transition: all 1s; }
     .section-plan .plans-list .plan-item .plan-title {
       font-size: 20px;
-      line-height: 24px;
+      line-height: 1;
       font-weight: 700;
       letter-spacing: 1px;
       color: #071e55; }
@@ -835,7 +840,7 @@ button {
   margin: 0 auto; }
 
 .grid-box {
-  border: 1px solid #d3d3d3;
+  border: 1px solid #f5f7fc;
   background: #fff;
   border-radius: 6px; }
 

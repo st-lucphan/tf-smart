@@ -4,7 +4,7 @@
   .section-team-title{
     @include pxRem(margin-bottom, 20);
     font-size: 28px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .team-list{
     justify-content: center;
@@ -18,7 +18,7 @@
       .team-info {
         @include pxRem(padding, 30 25 40 25);
         .team-name {
-          color: #071e55;
+          color: map-get($color, grey-a);
         }
         .team-position {
           @include pxRem(margin-bottom, 20);
@@ -26,7 +26,7 @@
           font-style: italic;
           line-height: 1.5;
           font-weight: 400;
-          color: #acacac;
+          color: map-get($color, grey-m);
         }
         .team-description {
           @include pxRem(margin-bottom, 20);

@@ -5,7 +5,7 @@
     @include pxRem(margin-bottom, 20);
     font-size: 28px;
     line-height: 1.2;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .section-discover-content {
     @include pxRem(margin-bottom, 20);

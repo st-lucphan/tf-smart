@@ -14,7 +14,9 @@
       color: map-get($map: $color, $key: white);
     }
     &:hover {
-      opacity: 0.7;
+      color: map-get($color, white);
+      background-color: map-get($color, blue-g);
+      border-color: map-get($color, blue-f);
     }
   }
   &.btn-secondary {

@@ -1,12 +1,12 @@
 .footer {
   @include pxRem(padding, 40 0 20 0);
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   .copy-right {
     margin-bottom: 5px;
     line-height: 24px;
     font-size: 17px;
     font-weight: 400;
-    color: #454545;
+    color: map-get($color, grey-d);
     .branch-name {
       font-weight: bold;
     }
@@ -21,7 +21,7 @@
     align-items: center;
     .follow {
       font-size: 17px;
-      color: #7c8595;
+      color: map-get($color, secondary);
     }
     .social-icon {
       @include pxRem(margin, 0 8);

@@ -5,34 +5,38 @@
     @include pxRem(margin-bottom, 20);
     @include pxRem(padding-bottom, 4 .0);
     font-size: 36px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .plans-list {
     .plan-item {
       @include pxRem(padding, 55);
       @include pxRem(margin-bottom, 20);
       text-align: center;
-      border-bottom: 3px solid #e0e0e0;
+      border-bottom: 3px solid map-get($color, white-c);
       box-shadow: rgba(33, 33, 33, 0.06) 0 4px 24px 5px;
       border-radius: 8px 8px;
+      &:hover {
+        border-bottom: 3px solid map-get($color, blue-c);
+        transition: all 1s;
+      }
       .plan-title {
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1;
         font-weight: 700;
         letter-spacing: 1px;
-        color: #071e55;
+        color: map-get($color, grey-a);
       }
       .plan-price {
         font-size: 65px;
         line-height: 1.1;
         font-weight: 600;
-        color: #071e55;
+        color: map-get($color, grey-a);
       }
       .plan-subtitle {
         font-size: 16px;
         line-height: 1.5;
         font-weight: 600;
-        color: #6a6a6a;
+        color: map-get($color, grey-l);
       }
       .info-list {
         text-align: left;
@@ -40,7 +44,7 @@
           font-size: 16px;
           line-height: 1.6;
           font-weight: 400;
-          color: #6a6a6a;
+          color: map-get($color, grey-l);
           .info-item-icon {
             @include pxRem(padding-right, 5);
             vertical-align: middle;

@@ -1,6 +1,6 @@
 .section-slider {
   @include pxRem(padding, 90 0 30 0);
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   .slider-left {
     position: relative;
     .slider-img {
@@ -21,7 +21,7 @@
       border-radius: 50%;
       background-color: rgba(255, 255, 255, 0.78);
       .bi-caret-right-fill {
-        color: #164145;
+        color: map-get($color, grey-k);
       }
       &:hover {
         background-color: rgba(255, 255, 255, 0.99);
@@ -39,7 +39,7 @@
     font-size: 17px;
     line-height: 1.5;
     font-weight: 400;
-    color: #7c8595;
+    color: map-get($color, secondary);
   }
   .slider-author {
     @include pxRem(margin-bottom, 5);
@@ -47,7 +47,7 @@
     line-height: 1.9;
     font-weight: 800;
     text-transform: uppercase;
-    color: #071e55;
+    color: map-get($color, grey-a);
     .slider-position {
       text-transform: none;
     }

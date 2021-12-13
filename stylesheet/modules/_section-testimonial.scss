@@ -10,7 +10,7 @@
   }
   .testimonial-author {
     font-size: 18px;
-    color: #071e55;
+    color: map-get($color, grey-a);
   }
   .testimonial-position {
     font-size: 17px;

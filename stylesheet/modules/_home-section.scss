@@ -1,5 +1,5 @@
 .home-section {
-  background-color: rgb(245, 247, 252);
+  background-color: map-get($color, grey-e);
   @include pxRem(padding, 30 0 50 0);
   .home-section-title {
     @include pxRem(margin-bottom, 20);
@@ -20,7 +20,7 @@
       border: none;
       font-size: 17px;
       background: url(../../images/email.png) no-repeat 15px 20px;
-      background-color: white
+      background-color: map-get($color, white);
     }
     .btn-submit {
       @include pxRem(height, 59);
@@ -34,6 +34,6 @@
   .newsletter-form-terms {
     @include pxRem(margin, 15 0 5 0);
     font-size: map-get($font-size, sm);
-    color: #878787;
+    color: map-get($color, grey-f);
   }
 }
