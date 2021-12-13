@@ -55,6 +55,9 @@ table {
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch; }
 
+html {
+  scroll-behavior: smooth; }
+
 html,
 body {
   font-size: 16px;
