@@ -3,7 +3,7 @@
   background-color: map-get($color, grey-e);
   .section-facts-title{
     @include pxRem(margin-bottom, 20);
-    font-size: 36px;
+    font-size: map-get($font-size, xxxxl);
     color: map-get($color, grey-a);
   }
   .facts-list{
@@ -15,7 +15,7 @@
         font-size: 46px;
       }
       .fact-item-title {
-        font-size: 20px;
+        font-size: map-get($font-size, xl);
       }
       .fact-item-content {
         @include pxRem(margin-bottom, 20);

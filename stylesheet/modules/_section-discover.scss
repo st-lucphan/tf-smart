@@ -3,7 +3,7 @@
   background-color: map-get($color, white);
   .section-discover-title{
     @include pxRem(margin-bottom, 20);
-    font-size: 28px;
+    font-size: map-get($font-size, xxxl);
     line-height: 1.2;
     color: map-get($color, grey-a);
   }

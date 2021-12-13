@@ -3,7 +3,7 @@
   background-color: map-get($color, grey-e);
   .section-accordion-title {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: map-get($font-size, xxxxl);
     line-height: 1.2;
     font-weight: 700;
     color: map-get($color, grey-a);
@@ -21,7 +21,7 @@
     }
     .testim-platform-name {
       margin-bottom: 5px;
-      font-size: 18px;
+      font-size: map-get($font-size, lg);
       font-weight: bold;
       color: map-get($color, grey-a);
     }
@@ -43,7 +43,7 @@
       @include pxRem(margin-right, 10);
       @include pxRem(padding, 10);
       color: map-get($color, green);
-      font-size: 20px;
+      font-size: map-get($font-size, xl);
       line-height: 1;
       border: 2px solid map-get($color, green);
       border-radius: 50%;

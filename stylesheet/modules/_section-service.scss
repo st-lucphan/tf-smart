@@ -2,7 +2,7 @@
   @include pxRem(padding, 90 0);
   .section-service-title{
     @include pxRem(margin-bottom, 20);
-    font-size: 36px;
+    font-size: map-get($font-size, xxxxl);
     color: map-get($color, grey-a);
   }
   .service-item {
@@ -20,7 +20,7 @@
     }
     .service-item-title {
       @include pxRem(margin-bottom, 20);
-      font-size: 20px;
+      font-size: map-get($font-size, xl);
     }
     .service-item-content {
       @include pxRem(margin-bottom, 20);

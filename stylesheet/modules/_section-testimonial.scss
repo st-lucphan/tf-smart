@@ -9,7 +9,7 @@
     color: map-get($color, secondary);
   }
   .testimonial-author {
-    font-size: 18px;
+    font-size: map-get($font-size, lg);
     color: map-get($color, grey-a);
   }
   .testimonial-position {

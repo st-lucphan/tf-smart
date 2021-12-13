@@ -3,7 +3,7 @@
   background-color: map-get($color, white);
   .section-team-title{
     @include pxRem(margin-bottom, 20);
-    font-size: 28px;
+    font-size: map-get($font-size, xxxxl);
     color: map-get($color, grey-a);
   }
   .team-list{

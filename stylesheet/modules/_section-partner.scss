@@ -3,7 +3,7 @@
   background-color: map-get($color, grey-e);
   .section-partner-title{
     @include pxRem(margin-bottom, 20);
-    font-size: 28px;
+    font-size: map-get($font-size, xxxl);
     color: map-get($color, grey-a);
   }
   .partners-list {

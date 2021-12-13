@@ -8,7 +8,7 @@
     color: #727272;
     background-color: #f6f7f8;
     border: 1px solid #ececec;
-    font-size: 14px;
+    font-size: map-get($font-size, sm);
     &.contact-commnent {
       @include pxRem(height, 205);
       @include pxRem(padding-top, 10);

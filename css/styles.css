@@ -99,10 +99,10 @@ h6 {
   color: #161616; }
 
 h1 {
-  font-size: 24px; }
+  font-size: 28px; }
 
 h2 {
-  font-size: 22px; }
+  font-size: 24px; }
 
 h3 {
   font-size: 20px; }
@@ -249,8 +249,11 @@ button {
       border: none;
       border-radius: 0 5px 5px 0;
       font-weight: 700;
+      cursor: pointer;
       color: #ffffff;
       background: #e52f37; }
+      .home-section .newsletter-form .btn-submit:hover {
+        background: #df2931; }
   .home-section .newsletter-form-terms {
     margin: 15px 0px 5px 0px;
     margin: 0.9375rem 0rem 0.3125rem 0rem;
@@ -385,7 +388,7 @@ button {
   .section-team .section-team-title {
     margin-bottom: 20px;
     margin-bottom: 1.25rem;
-    font-size: 28px;
+    font-size: 36px;
     color: #071e55; }
   .section-team .team-list {
     justify-content: center; }

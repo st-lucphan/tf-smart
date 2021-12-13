@@ -27,8 +27,12 @@
       border: none;
       border-radius: 0 5px 5px 0;
       font-weight: 700;
+      cursor: pointer;
       color: map-get($color, white);
       background: map-get($color, danger);
+      &:hover {
+        background: map-get($color, red-c);
+      }
     }
   }
   .newsletter-form-terms {

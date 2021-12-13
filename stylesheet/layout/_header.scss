@@ -6,7 +6,7 @@
     .navbar-branch {
       @include pxRem(padding, 5 0);
       width: 11%;
-      font-size: map-get($font-size, xxxl);
+      font-size: map-get($font-size, xxl);
       font-weight: 800;
       color: map-get($color, grey-a);
       .logo {

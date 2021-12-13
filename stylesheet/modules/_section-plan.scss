@@ -4,7 +4,7 @@
   .section-plan-title{
     @include pxRem(margin-bottom, 20);
     @include pxRem(padding-bottom, 4 .0);
-    font-size: 36px;
+    font-size: map-get($font-size, xxxxl);
     color: map-get($color, grey-a);
   }
   .plans-list {
@@ -20,7 +20,7 @@
         transition: all 1s;
       }
       .plan-title {
-        font-size: 20px;
+        font-size: map-get($font-size, xl);
         line-height: 1;
         font-weight: 700;
         letter-spacing: 1px;

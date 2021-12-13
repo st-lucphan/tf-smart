@@ -2,7 +2,7 @@
   @include pxRem(padding, 90 0);
   .section-contact-title {
     @include pxRem(margin-bottom, 20);
-    font-size: 28px;
+    font-size: map-get($font-size, xxxl);
     color: map-get($color, grey-a);
   }
   .contact-maps {
@@ -15,7 +15,7 @@
   }
   .head-office {
     @include pxRem(margin-bottom, 20);
-    font-size: 20px;
+    font-size: map-get($font-size, xl);
     color: map-get($color, grey-a);
   }
   .contact-info {
@@ -25,7 +25,7 @@
     font-weight: 400;
     color: map-get($color, secondary);
     .contact-icon {
-      font-size: 18px;
+      font-size: map-get($font-size, lg);
       padding-right: 5px;
       vertical-align: middle;
       color: map-get($color, blue-c);
